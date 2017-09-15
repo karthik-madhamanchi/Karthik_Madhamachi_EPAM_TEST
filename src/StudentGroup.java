@@ -108,7 +108,7 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void remove(int index) {
 		// Add your implementation here
-		students.remove(index);
+		//students.remove(index);
 	}
 
 	@Override
@@ -186,12 +186,12 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student[] getStudentsByAge(int age) {
 		// Add your implementation here
-		/*Student st[] = new Student[students.length];
+		Student st[] = new Student[students.length];
 		int count=0;
 		for(int i=0;i<students.length;i++) if(students[i].getBirthDate()getClass().getAge() == age) {
 			st[count] = students[i];
 			count++;
-		}*/
+		}
 		return null;
 	}
 
