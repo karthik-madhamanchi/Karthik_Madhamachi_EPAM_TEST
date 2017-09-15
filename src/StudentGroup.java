@@ -264,9 +264,18 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student[] getBetweenBirthDates(Date firstDate, Date lastDate){
 		// Add your implementation here
-
-       
-		return null;
+		Student[] s1=new Student[students.length];
+		int check=0;
+		Date d;
+		for(int i=0;i<students.length;i++)
+		{
+			d=students[i].getBirthDate();
+			if(d.after(firstDate) && d.before(lastDate)){
+				s1[check++]=students[i];
+			}
+		}
+		
+		return s1;
 	}
 
 	@Override
