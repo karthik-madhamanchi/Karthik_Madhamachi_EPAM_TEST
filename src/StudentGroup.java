@@ -102,20 +102,20 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void add(Student student, int index) {
 		// Add your implementation here
-		students[index].add(student);
+		//students[index].add(student);
 		
 	}
 
 	@Override
 	public void remove(int index) {
 		// Add your implementation here
-		students.remove(index);
+		//students.remove(index);
 	}
 
 	@Override
 	public void remove(Student student) {
 		// Add your implementation here
-		students.remove(new Student(student));
+		//students.remove(new Student(student));
 	}
 
 	@Override
