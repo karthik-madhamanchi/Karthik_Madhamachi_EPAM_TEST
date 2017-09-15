@@ -102,7 +102,7 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void add(Student student, int index) {
 		// Add your implementation here
-		students[index]=student;
+		students[index].add(student);
 		
 	}
 
